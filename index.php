@@ -4,7 +4,7 @@
 <head>
 <meta charset="utf-8"/>
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
-<title> รันเวย์ ทราเวล อินเตอร์เนชั่นแนล :: RUNWAY TRAVEL INTERNATIONAL  1.1</title>
+<title> รันเวย์ ทราเวล อินเตอร์เนชั่นแนล RUNWAY TRAVEL INTERNATIONAL</title>
 <!-- <meta http-equiv="Content-Type" content="text/html; charset=windows-874"> -->
 <meta name="description" content="รันเวย์ ทราเวล อินเตอร์เนชั่นแนล ตั๋ว เครื่องบิน ท่องเที่ยว เที่ยว เที่ยวไทย จองตั๋ว วีซ่า อีเว้น event runway travel international">
 <meta name="keywords" content="รันเวย์,ทราเวล, อินเตอร์เนชั่นแนล, ตั๋ว, เครื่องบิน, ท่องเที่ยว, เที่ยว, เที่ยวไทย, จองตั๋ว, วีซ่า, อีเว้น, event, runway, travel, international">
