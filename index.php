@@ -304,26 +304,26 @@ function MM_jumpMenuGo(selName,targ,restore){ //v3.0
                       <td height="56"><table width="100%" border="0" cellspacing="0" cellpadding="0">
                           <tr> 
                             <td width="9" height="56"><img src="http://www.runway-travelinter.com/img/bg_menu01.jpg" width="13" height="56"></td>
-                            <td background="img/bg_menu02.jpg"><table width="100%" border="0" cellspacing="0" cellpadding="0">
+                            <td background="http://www.runway-travelinter.com/img/bg_menu02.jpg"><table width="100%" border="0" cellspacing="0" cellpadding="0">
                                 <tr> 
                                   <td>&nbsp;</td>
                                   <td width="77"><a href="index.php" onmouseout="MM_swapImgRestore()" onmouseover="MM_swapImage('Image42','','http://www.runway-travelinter.com/img/menu_over_01.jpg',1)"><img src="http://www.runway-travelinter.com/img/menu_01.jpg" name="Image42" width="77" height="34" border="0" id="Image42" /></a></td>
                                   <td>&nbsp;</td>
-                                  <td width="152"><a href="index.php?name=aboutus" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('Image5','','img/menu_over_02.jpg',1)"><img src="http://www.runway-travelinter.com/img/menu_02.jpg" name="Image5" width="152" height="34" border="0"></a></td>
+                                  <td width="152"><a href="index.php?name=aboutus" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('Image5','','http://www.runway-travelinter.com/img/menu_over_02.jpg',1)"><img src="http://www.runway-travelinter.com/img/menu_02.jpg" name="Image5" width="152" height="34" border="0"></a></td>
                                   <td>&nbsp;</td>
-                                  <td width="111"><a href="index.php?name=condition" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('Image6','','img/menu_over_03.jpg',1)"><img src="http://www.runway-travelinter.com/img/menu_03.jpg" name="Image6" width="111" height="34" border="0"></a></td>
+                                  <td width="111"><a href="index.php?name=condition" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('Image6','','http://www.runway-travelinter.com/img/menu_over_03.jpg',1)"><img src="http://www.runway-travelinter.com/img/menu_03.jpg" name="Image6" width="111" height="34" border="0"></a></td>
                                   <td>&nbsp;</td>
-                                  <td width="92"><a href="index.php?name=visa" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('Image7','','img/menu_over_04.jpg',1)"><img src="http://www.runway-travelinter.com/img/menu_04.jpg" name="Image7" width="92" height="34" border="0"></a></td>
+                                  <td width="92"><a href="index.php?name=visa" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('Image7','','http://www.runway-travelinter.com/img/menu_over_04.jpg',1)"><img src="http://www.runway-travelinter.com/img/menu_04.jpg" name="Image7" width="92" height="34" border="0"></a></td>
                                   <td>&nbsp;</td>
-                                  <td width="100"><a href="index.php?name=embassy" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('Image8','','img/menu_over_05.jpg',1)"><img src="http://www.runway-travelinter.com/img/menu_05.jpg" name="Image8" width="100" height="34" border="0"></a></td>
+                                  <td width="100"><a href="index.php?name=embassy" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('Image8','','http://www.runway-travelinter.com/img/menu_over_05.jpg',1)"><img src="http://www.runway-travelinter.com/img/menu_05.jpg" name="Image8" width="100" height="34" border="0"></a></td>
                                   <td>&nbsp;</td>
-                                  <td width="98"><a href="index.php?name=carrent" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('Image9','','img/menu_over_06.jpg',1)"><img src="http://www.runway-travelinter.com/img/menu_06.jpg" name="Image9" width="98" height="34" border="0"></a></td>
+                                  <td width="98"><a href="index.php?name=carrent" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('Image9','','http://www.runway-travelinter.com/img/menu_over_06.jpg',1)"><img src="http://www.runway-travelinter.com/img/menu_06.jpg" name="Image9" width="98" height="34" border="0"></a></td>
                                   <td>&nbsp;</td>
-                                  <td width="110"><a href="index.php?name=event" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('Image10','','img/menu_over_07.jpg',1)"><img src="http://www.runway-travelinter.com/img/menu_07.jpg" name="Image10" width="110" height="34" border="0"></a></td>
+                                  <td width="110"><a href="index.php?name=event" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('Image10','','http://www.runway-travelinter.com/img/menu_over_07.jpg',1)"><img src="http://www.runway-travelinter.com/img/menu_07.jpg" name="Image10" width="110" height="34" border="0"></a></td>
                                   <td>&nbsp;</td>
-                                  <td width="40"><a href="index.php?name=media" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('Image11','','img/menu_over_08.jpg',1)"><img src="http://www.runway-travelinter.com/img/menu_08.jpg" name="Image11" width="40" height="34" border="0"></a></td>
+                                  <td width="40"><a href="index.php?name=media" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('Image11','','http://www.runway-travelinter.com/img/menu_over_08.jpg',1)"><img src="http://www.runway-travelinter.com/img/menu_08.jpg" name="Image11" width="40" height="34" border="0"></a></td>
                                   <td>&nbsp;</td>
-                                  <td width="75"><a href="index.php?name=contact" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('Image12','','img/menu_over_09.jpg',1)"><img src="http://www.runway-travelinter.com/img/menu_09.jpg" name="Image12" width="75" height="34" border="0"></a></td>
+                                  <td width="75"><a href="index.php?name=contact" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('Image12','','http://www.runway-travelinter.com/img/menu_over_09.jpg',1)"><img src="http://www.runway-travelinter.com/img/menu_09.jpg" name="Image12" width="75" height="34" border="0"></a></td>
                                   <td>&nbsp;</td>
                                 </tr>
                               </table></td>
