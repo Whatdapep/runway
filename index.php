@@ -295,6 +295,18 @@ function MM_jumpMenuGo(selName,targ,restore){ //v3.0
                     </tr>
                   </table></td>
               </tr>
+              <table width="100%" border="0" cellspacing="0" cellpadding="0">
+                          <tr>
+                          <!-- <td>ติดต่อสอบถามง่าย</td> -->
+                            <td>
+                            <a href="line.png">
+                            <img src="http://test.coopmoj.org/img/icon_line.png" width="50" height="50" border="0"></a>  
+                            
+                            <a href="http://www.facebook.com/Runway.Travel" target="_blank"><img src="http://www.runway-travelinter.com/img/logo_fb.jpg" width="50" height="50" border="0" /></a> 
+                            </td>
+                            <td width="35"><img src="http://www.runway-travelinter.com/img/logo_ttt.jpg" width="29" height="30" /></td>
+                          </tr>
+                        </table></td>
               <tr> 
                 <td align="center" valign="top"><table width="984" border="0" cellspacing="0" cellpadding="0">
                     <tr> 
