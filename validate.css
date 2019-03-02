@@ -1,0 +1,25 @@
+/*
+Name: Validate Form
+Author: Jirachai Thongtep
+Date: December 29, 2009
+Email: netlic@hotmail.com
+
+	The CSS, XHTML and design is released under Creative Common License 3.0:
+	http://creativecommons.org/licenses/by-sa/3.0/
+
+*/ 
+
+#checkRegist label.error, label.error
+{
+	/* remove the next line when you have trouble in IE6 with labels in list */
+	background:url("../images/form/uncheck.jpg") no-repeat 0px 0px;
+  	padding-left: 16px;
+	color: red;
+	font-style: italic
+}
+
+#checkRegist label.checked, label.checked
+{
+	/* remove the next line when you have trouble in IE6 with labels in list */
+	background:url("../images/form/check.jpg") no-repeat 0px 0px;
+}
