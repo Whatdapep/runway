@@ -46,8 +46,12 @@ function MM_swapImage() { //v3.0
   var i,j=0,x,a=MM_swapImage.arguments; document.MM_sr=new Array; for(i=0;i<(a.length-2);i+=3)
    if ((x=MM_findObj(a[i]))!=null){document.MM_sr[j++]=x; if(!x.oSrc) x.oSrc=x.src; x.src=a[i+2];}
 }
+
 </script>
-<style type="text/css"> 
+<link href="https://fonts.googleapis.com/css?family=Kanit" rel="stylesheet">
+<style type="text/css">
+ 
+font-family: 'Kanit', sans-serif;
 body { 
   /* for IE; otherwise, BG isn't fully stretched */ 
   margin: 0px; 
@@ -279,10 +283,10 @@ function MM_jumpMenuGo(selName,targ,restore){ //v3.0
                     </tr>
                     <tr> 
                       <td height="25">&nbsp;</td>
-                      <td class="body01"> 
+                      <!-- <td class="body01"> 
                         <table width="100%" border="0" cellspacing="0" cellpadding="0">
                           <tr>
-                          <!-- <td>ติดต่อสอบถามง่าย</td> -->
+                          <!-- <td>ติดต่อสอบถามง่าย</td> 
                             <td>
                             <a href="line.png">
                             <img src="http://test.coopmoj.org/img/icon_line.png" width="50" height="50" border="0"></a>  
@@ -291,22 +295,37 @@ function MM_jumpMenuGo(selName,targ,restore){ //v3.0
                             </td>
                             <td width="35"><img src="http://www.runway-travelinter.com/img/logo_ttt.jpg" width="29" height="30" /></td>
                           </tr>
-                        </table></td>
+                        </table></td> -->
                     </tr>
                   </table></td>
               </tr>
-              <table width="100%" border="0" cellspacing="0" cellpadding="0">
-                          <tr>
+              
+                          <tr align = "right">
+
+                          <style>
+                          .line{
+                            font-style: italic;
+                            font-weight: bold;
+                            font-size: 20px;
+                          }
+                          </style>
                           <!-- <td>ติดต่อสอบถามง่าย</td> -->
+                          <!-- Kanit p.italic {
+  font-style: italic;
+} font-weight: bold; -->    
+
                             <td>
-                            <a href="line.png">
-                            <img src="http://test.coopmoj.org/img/icon_line.png" width="50" height="50" border="0"></a>  
+                            <a href="https://line.me/R/ti/p/%40nsz8485o" style = "margin-right:20px;"><img height="36" border="0" alt="เพิ่มเพื่อน" src="https://scdn.line-apps.com/n/line_add_friends/btn/en.png"></a>
+                            <a class = "line"></a>
+                            <!-- <img src="R7gJYMDT5J.png" > -->
+                            <!-- <a href="line.png" style = "margin-left: 20px;">
+                            <img src="http://test.coopmoj.org/img/icon_line.png" width="50" height="50" border="0"></a>   -->
                             
-                            <a href="http://www.facebook.com/Runway.Travel" target="_blank"><img src="http://www.runway-travelinter.com/img/logo_fb.jpg" width="50" height="50" border="0" /></a> 
+                            <a href="http://www.facebook.com/Runway.Travel" target="_blank"><img src="icon_face.png" width="50" height="50" border="0" /></a> 
                             </td>
-                            <td width="35"><img src="http://www.runway-travelinter.com/img/logo_ttt.jpg" width="29" height="30" /></td>
+                            <!-- <td width="35"><img src="http://www.runway-travelinter.com/img/logo_ttt.jpg" width="29" height="30" /></td> -->
                           </tr>
-                        </table></td>
+                      
               <tr> 
                 <td align="center" valign="top"><table width="984" border="0" cellspacing="0" cellpadding="0">
                     <tr> 
