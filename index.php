@@ -332,6 +332,7 @@ function MM_jumpMenuGo(selName,targ,restore){ //v3.0
                         </table></td>
                     </tr>
                     <tr> 
+                    <!--  -->
                       <td height="10"></td>
                     </tr>
                     <tr> 
