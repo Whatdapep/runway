@@ -432,7 +432,7 @@ function MM_jumpMenuGo(selName,targ,restore){ //v3.0
 </table><table width=100% border=0 cellspacing=0 cellpadding=0>
   <tr> 
     <td width=40 align=center><img src=img/icon_menu_01.gif width=25 height=25></td>
-    <td><b><a href='?file=page&op=Malaysia'>มาเลเชีย</a></b></td>
+    <td><b><a href='?file=page&op=Malaysia'>มาเลเชียย</a></b></td>
   </tr>
   <tr background=img/dot_01.jpg> 
    <td height=14 colspan=2></td>
