@@ -4,7 +4,7 @@
 <head>
 <meta charset="utf-8"/>
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
-<title> รันเวย์ ทราเวล อินเตอร์เนชั่นแนล RUNWAY TRAVEL INTERNATIONAL</title>
+<title>รันเวย์ ทราเวล อินเตอร์เนชั่นแนล RUNWAY TRAVEL INTERNATIONAL</title>
 <!-- <meta http-equiv="Content-Type" content="text/html; charset=windows-874"> -->
 <meta name="description" content="รันเวย์ ทราเวล อินเตอร์เนชั่นแนล ตั๋ว เครื่องบิน ท่องเที่ยว เที่ยว เที่ยวไทย จองตั๋ว วีซ่า อีเว้น event runway travel international">
 <meta name="keywords" content="รันเวย์,ทราเวล, อินเตอร์เนชั่นแนล, ตั๋ว, เครื่องบิน, ท่องเที่ยว, เที่ยว, เที่ยวไทย, จองตั๋ว, วีซ่า, อีเว้น, event, runway, travel, international">
@@ -307,7 +307,7 @@ function MM_jumpMenuGo(selName,targ,restore){ //v3.0
                             <td background="img/bg_menu02.jpg"><table width="100%" border="0" cellspacing="0" cellpadding="0">
                                 <tr> 
                                   <td>&nbsp;</td>
-                                  <td width="77"><a href="index.php" onmouseout="MM_swapImgRestore()" onmouseover="MM_swapImage('Image42','','img/menu_over_01.jpg',1)"><img src="http://www.runway-travelinter.com/img/menu_01.jpg" name="Image42" width="77" height="34" border="0" id="Image42" /></a></td>
+                                  <td width="77"><a href="index.php" onmouseout="MM_swapImgRestore()" onmouseover="MM_swapImage('Image42','','http://www.runway-travelinter.com/img/menu_over_01.jpg',1)"><img src="http://www.runway-travelinter.com/img/menu_01.jpg" name="Image42" width="77" height="34" border="0" id="Image42" /></a></td>
                                   <td>&nbsp;</td>
                                   <td width="152"><a href="index.php?name=aboutus" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('Image5','','img/menu_over_02.jpg',1)"><img src="http://www.runway-travelinter.com/img/menu_02.jpg" name="Image5" width="152" height="34" border="0"></a></td>
                                   <td>&nbsp;</td>
