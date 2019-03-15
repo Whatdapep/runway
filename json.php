@@ -59,60 +59,60 @@ mysqli_set_charset($conn,"utf8");
 // LIMIT 0,7" ;
 
 // ---------------------------------Loan------------------------------------------------------------
-// $sql="SELECT 
-// sm_lon_m_loan_card.principal_balance
-// ,sm_lon_m_loan_card.loan_contract_no
-// ,sm_lon_m_loan_card.BEGINING_OF_CONTRACT
-// ,sm_lon_m_loan_card.loan_approve_amount
-// ,sm_lon_m_loan_card.period_payment_amount
-// ,sm_lon_m_loan_card.LOAN_PAYMENT_TYPE_CODE
-// ,sm_lon_m_loan_card.LAST_PERIOD
-// ,sm_lon_m_loan_card.membership_no
-// -- ,LOAN_TYPE_DESCRIPTION
-// -- sm_lon_m_loan_card_detail.
-// -- ,YEAR_TOTAL_INTEREST
-// -- ,LAST_ACCESS_DATE
-// ,sm_lon_m_loan_card.LOAN_INSTALLMENT_AMOUNT
-// ,( select count(loan_contract_no) from sm_lon_m_contract_coll where loan_contract_no = sm_lon_m_loan_card.loan_contract_no) as c_count_coll
-// ,((loan_approve_amount -principal_balance )/loan_approve_amount) * 100 as percent_pay
+$sql="SELECT 
+sm_lon_m_loan_card.principal_balance
+,sm_lon_m_loan_card.loan_contract_no
+,sm_lon_m_loan_card.BEGINING_OF_CONTRACT
+,sm_lon_m_loan_card.loan_approve_amount
+,sm_lon_m_loan_card.period_payment_amount
+,sm_lon_m_loan_card.LOAN_PAYMENT_TYPE_CODE
+,sm_lon_m_loan_card.LAST_PERIOD
+,sm_lon_m_loan_card.membership_no
+-- ,LOAN_TYPE_DESCRIPTION
+-- sm_lon_m_loan_card_detail.
+-- ,YEAR_TOTAL_INTEREST
+-- ,LAST_ACCESS_DATE
+,sm_lon_m_loan_card.LOAN_INSTALLMENT_AMOUNT
+,( select count(loan_contract_no) from sm_lon_m_contract_coll where loan_contract_no = sm_lon_m_loan_card.loan_contract_no) as c_count_coll
+,((loan_approve_amount -principal_balance )/loan_approve_amount) * 100 as percent_pay
 
-// FROM 	sm_lon_m_loan_card
-// WHERE 	membership_no = '0000115'
-// AND ( principal_balance > 0 )
-// ORDER BY BEGINING_OF_CONTRACT DESC,principal_balance"; **
+FROM 	sm_lon_m_loan_card
+WHERE 	membership_no = '0000115'
+AND ( principal_balance > 0 )
+ORDER BY BEGINING_OF_CONTRACT DESC,principal_balance";
 // --------------------------------------------------------------------------
-$sql="SELECT PRINCIPAL_BALANCE
-              ,LOAN_CONTRACT_NO
-              ,LOAN_TYPE
-              ,BEGINING_OF_CONTRACT
-              ,LOAN_APPROVE_AMOUNT
-              ,PERIOD_PAYMENT_AMOUNT
-              ,LOAN_PAYMENT_TYPE_CODE
-              ,LAST_PERIOD
-              ,ATM_STATUS
-              ,MODIFY_STATUS
-             FROM 	sm_lon_m_loan_card
-             WHERE 	membership_no = '094103'
-             AND ( PRINCIPAL_BALANCE > 0 OR ( ATM_STATUS = '1' AND MODIFY_STATUS <> 'C' ) )
-             ORDER BY LAST_CALCINT_DATE DESC";
+// $sql="SELECT PRINCIPAL_BALANCE
+//               ,LOAN_CONTRACT_NO
+//               ,LOAN_TYPE
+//               ,BEGINING_OF_CONTRACT
+//               ,LOAN_APPROVE_AMOUNT
+//               ,PERIOD_PAYMENT_AMOUNT
+//               ,LOAN_PAYMENT_TYPE_CODE
+//               ,LAST_PERIOD
+//               ,ATM_STATUS
+//               ,MODIFY_STATUS
+//              FROM 	sm_lon_m_loan_card
+//              WHERE 	membership_no = '0000091'
+//              AND ( PRINCIPAL_BALANCE > 0 OR ( ATM_STATUS = '1' AND MODIFY_STATUS <> 'C' ) )
+//              ORDER BY LAST_CALCINT_DATE DESC";
 
 $result = mysqli_query($conn,$sql);
 if (mysqli_num_rows($result)>0){
     while($row = mysqli_fetch_array($result)){
         $confirm_register = array(); 
-        $confirm_register["PRINCIPAL_BALANCE"]= $row["PRINCIPAL_BALANCE"];
-        $confirm_register["LOAN_CONTRACT_NO"]= $row["LOAN_CONTRACT_NO"];
+        $confirm_register["principal_balance"]= $row["principal_balance"];
+        $confirm_register["loan_contract_no"]= $row["loan_contract_no"];
         $confirm_register["LOAN_TYPE"]= $row["LOAN_TYPE"];
         $confirm_register["BEGINING_OF_CONTRACT"]= $row["BEGINING_OF_CONTRACT"];
-        $confirm_register["LOAN_APPROVE_AMOUNT"]= $row["LOAN_APPROVE_AMOUNT"];
-        $confirm_register["PERIOD_PAYMENT_AMOUNT"]= $row["PERIOD_PAYMENT_AMOUNT"];
+        $confirm_register["loan_approve_amount"]= $row["loan_approve_amount"];
+        $confirm_register["period_payment_amount"]= $row["period_payment_amount"];
         $confirm_register["LOAN_PAYMENT_TYPE_CODE"]=$row["LOAN_PAYMENT_TYPE_CODE"];
         $confirm_register["LAST_PERIOD"]=$row["LAST_PERIOD"];
        
         // $confirm_register["approve_date"]=$row["approve_date"];
-        $confirm_register["ATM_STATUS"]=$row["ATM_STATUS"];
+        $confirm_register["membership_no"]=$row["membership_no"];
         
-        $confirm_register["MODIFY_STATUS"]=$row["MODIFY_STATUS"];
+        $confirm_register["c_count_coll"]=$row["c_count_coll"];
         // $confirm_register["member_group_name"]=$row["member_group_name"];
         // $confirm_register["date_of_birth"]= $row["date_of_birth"];
         // $confirm_register["position_name"]=$row["position_name"];
